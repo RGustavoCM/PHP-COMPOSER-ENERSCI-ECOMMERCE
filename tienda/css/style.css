@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+/*-- Tabla--*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #00008B;
+  color: white;
+}
+
+
+
+body
+{
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+}
+
+/*--- Navegacion ---*/
+.offset:before
+{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+.navbar-toggler
+{
+	color: blue;
+}
+
+.navbar-toggler-icon
+{
+	color: grey;
+}
+.navbar
+{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0,0,0,0.6);
+}
+.navbar-nav li
+{
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+	color: black;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+	color:  blue ;
+}
+
+/*----Aqui Empieza El Css De Inicio ---*/
+.home-inner
+{
+	 background-image: url(\../img/fondos/jumbo1.jpg);
+}
+
+
+.caption
+{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 45%;
+}
+
+.caption h1
+{
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3
+{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg
+{
+	text-shadow: .1rem .1rem .8rem black;
+	border-width: medium;
+	border-radius: 0;
+	padding: .6rem .1.3rem;
+	font-size: 1.1rem;
+}
+.lead
+{
+	color: black;
+}
+
+.blanco
+{
+	color: white;
+}
+
+
+
+/*--Aqui Empieza El Estilo Del Apartado Info --*/
+
+.narrow
+{
+	widows: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+
+.narrow h1
+{
+	font-size: 2.4rem;
+}
+
+.btn-secondary
+{
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin: 1rem;
+	color: white;
+	background: #00008B;
+	border-color: #00008B;
+}
+
+.btn-secondary:hover
+{
+
+	background: #483D8B;
+	border-color: #483D8B;
+}
+/*--Aqui Termina El Estilo Del Apartado Info --*/
+
+.jumbotron
+{
+		margin-bottom: 0;
+		padding: 2rem 0 3.5rem;
+		border-radius: 0;
+}
+
+h3.heading
+{
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+}
+.heading-underline
+{
+		width: 3rem;
+		height: .2rem;
+		background-color: #00008B;
+		margin: 0 auto 2rem;
+
+}
+
+.obj svg.svg-inline--fa
+{
+	color: #00008B;
+}
+
+.obj h3
+{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .4rem;
+}
+
+.obj p 
+{
+	font-size: 1.1rem;
+}
+
+footer
+{
+	background-color: #40474e;
+	color: white;
+	padding: 2rem 0 2rem;
+	margin-top: 1rem;
+}
+footer img
+{
+	margin: 1.5rem 0;
+}
+
+footer a
+{
+	color: white;
+}
+
+footer svg.svg-inline--fa
+{
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover
+{
+	color: #00008B !important;
+}
+hr.socket
+{
+	width: 100%;
+	border-top: .2rem solid #666b71;
+	margin-top: 3rem;
+}
+
+/*--Aqui Empieza El Estilo Del Apartado Funcionalidad --*/
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
